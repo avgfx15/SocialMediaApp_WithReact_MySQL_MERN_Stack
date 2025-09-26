@@ -1,0 +1,20 @@
+/* | Import Tailwindcss and Daisyui Styling */
+@import 'tailwindcss';
+
+@plugin "daisyui";
+
+/* ` Configure tailwindcss base */
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+  }
+}

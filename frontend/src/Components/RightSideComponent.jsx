@@ -1,9 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router';
 
+// & RightSide Component
 const RightSideComponent = () => {
+  // ^ RightSide Component Render
   return (
-    <div className='drawer sm:drawer-open drawer-end w-44 lg:w-80 hidden sm:block'>
+    <div className='drawer sm:drawer-open drawer-end w-44 lg:w-60 2xl:w-80 transition-all 0.3s easy-in-out hidden sm:block'>
       <input id='my-drawer-4' type='checkbox' className='drawer-toggle' />
       <div className='drawer-content flex flex-col items-center justify-center'>
         {/* Page content here */}
@@ -20,7 +22,7 @@ const RightSideComponent = () => {
           aria-label='close sidebar'
           className='drawer-overlay'
         ></label>
-        <ul className='menu bg-sky-950 text-base-content min-h-full w-44 lg:w-80 p-4'>
+        <ul className='menu bg-sky-950 text-base-content min-h-full w-44 lg:w-60 2xl:w-80 transition-all 0.3s easy-in-out p-4'>
           {/* Sidebar content here */}
           <li>
             <NavLink to='/'>Sidebar Item 1</NavLink>

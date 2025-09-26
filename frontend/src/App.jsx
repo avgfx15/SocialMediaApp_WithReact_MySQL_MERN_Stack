@@ -58,14 +58,6 @@ const App = () => {
         },
       ],
     },
-    // {
-    //   path: '/about',
-    //   element: <About />,
-    // },
-    // {
-    //   path: '/contact',
-    //   element: <Contact />,
-    // },
     {
       path: '/login',
       element: <LoginPage />,

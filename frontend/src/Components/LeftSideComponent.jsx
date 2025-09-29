@@ -9,7 +9,7 @@ import LeftSection3Component from './LeftSideComponents/LeftSection_3_Component'
 const LeftSideComponent = () => {
   // ^ LeftSide Component Render
   return (
-    <div className='flex flex-row md:flex-col'>
+    <div className='flex flex-row md:flex-col p-1 lg:p-10'>
       <LeftSection1Component />
       <LeftSection2Component />
       <LeftSection3Component />

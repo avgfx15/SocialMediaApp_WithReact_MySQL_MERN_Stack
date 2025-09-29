@@ -6,7 +6,7 @@ import './home.scss';
 const HomePage = () => {
   // ^ Main Component Render
   return (
-    <div className='w-full h-screen flex justify-center bg-sky-500'>
+    <div className='w-full'>
       <CarouselComponent />
     </div>
   );

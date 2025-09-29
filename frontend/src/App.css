@@ -18,3 +18,17 @@
     font-size: 1.1rem;
   }
 }
+
+.drawerLeft {
+  width: 30%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.drawerRight {
+  width: 30%;
+  position: fixed;
+  top: 0;
+  right: 0;
+}

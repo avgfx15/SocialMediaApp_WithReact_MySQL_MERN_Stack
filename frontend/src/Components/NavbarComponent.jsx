@@ -17,7 +17,7 @@ import { FaRegCircleUser } from 'react-icons/fa6';
 const NavbarComponent = () => {
   // ^ Navbar Render
   return (
-    <div className='navbar bg-sky-950 shadow-lg border-b border-b-sky-700 mb-3'>
+    <div className='navbar bg-sky-950 shadow-lg border-b border-b-sky-700 sticky top-0 z-10'>
       <div className='navbar-start'>
         <div className='dropdown'>
           <button
@@ -102,17 +102,17 @@ const NavbarComponent = () => {
             <input
               type='text'
               placeholder='Search...'
-              className='input input-bordered w-96 max-w-xs'
+              className='input input-bordered w-56 max-w-xs'
             />
             <AiOutlineSearch className='text-4xl ml-3' />
           </div>
         </ul>
       </div>
       <div className='navbar-end'>
-        <div className='flex justify-center items-center gap-2'>
-          <FaRegCircleUser className='text-2xl mx-3' />
-          <AiOutlineMail className='text-2xl mr-3' />
-          <MdOutlineNotificationsNone className='text-2xl mr-3' />
+        <div className='flex justify-center items-center gap-2 pr-3'>
+          <FaRegCircleUser className='text-2xl mx-3 hidden sm:inline-block' />
+          <AiOutlineMail className='text-2xl mr-3 hidden sm:inline-block' />
+          <MdOutlineNotificationsNone className='text-2xl mr-3 hidden sm:inline-block' />
           <div className='dropdown dropdown-end'>
             <button
               type='button'
@@ -143,7 +143,7 @@ const NavbarComponent = () => {
               </li>
             </ul>
           </div>
-          <p className='text-lg'>User Name</p>
+          <p className='text-base'>User Name</p>
         </div>
       </div>
     </div>
